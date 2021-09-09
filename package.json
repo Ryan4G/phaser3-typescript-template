@@ -2,7 +2,6 @@
   "name": "phaser3-typescript-template",
   "version": "1.0.0",
   "description": "phaser3 template for using typescript",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html -p 8000",
     "build": "parcel build src/index.html --out-dir dist",
@@ -14,6 +13,10 @@
   ],
   "author": "ryan4g",
   "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Ryan4G/phaser3-typescript-template.git"
+	},
   "dependencies": {
     "phaser": "^3.55.2"
   },
